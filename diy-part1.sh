@@ -36,3 +36,5 @@
 
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+
