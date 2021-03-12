@@ -21,8 +21,11 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 #git clone https://github.com/rosywrt/luci-theme-rosy.git package/luci-theme-rosy
-src-git packages https://github.com/coolsnowwolf/packages
-src-git luci https://github.com/coolsnowwolf/luci
-src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07
-#src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07
-src-git helloworld https://github.com/fw876/helloworld
+
+#src-git packages https://github.com/coolsnowwolf/packages
+#src-git luci https://github.com/coolsnowwolf/luci
+#src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07
+##src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07
+#src-git helloworld https://github.com/fw876/helloworld
+
+src-git lienol https://github.com/Lienol/openwrt-package
