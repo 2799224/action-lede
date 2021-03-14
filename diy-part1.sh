@@ -35,6 +35,9 @@
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+#@@@@sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#@@@@git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 
+#git clone -b openwrt-19.07 https://github.com/ikghx/openwrt-life.git
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/ikghx/openwrt-life.git package/openwrt-life
