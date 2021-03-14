@@ -40,4 +40,5 @@
 
 #git clone -b openwrt-19.07 https://github.com/ikghx/openwrt-life.git
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/ikghx/openwrt-life.git package/openwrt-life
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+
