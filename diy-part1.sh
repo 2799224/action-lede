@@ -45,5 +45,5 @@
 
 sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/tsl0922/ttyd.git package/ttyd
+#git clone https://github.com/tsl0922/ttyd.git package/ttyd
 
