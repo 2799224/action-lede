@@ -39,8 +39,11 @@
 #@@@@git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 
 #git clone -b openwrt-19.07 https://github.com/ikghx/openwrt-life.git
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+#git clone https://github.com/tsl0922/ttyd.git package/ttyd
+
+sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/tsl0922/ttyd.git package/ttyd
-
 
